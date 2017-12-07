@@ -1,0 +1,792 @@
+@media (max-width: 1600px) {
+
+
+
+}
+
+
+@media (max-width: 1400px) {
+
+/*Ум-ние размеров заголовков разделов*/
+
+header {
+    height: 700px;
+}
+
+.clothestext1 {
+    margin: 215px 15% 25px;
+}
+
+.clothestext3 {
+    margin: 130px 0 35px;
+}
+
+.socseti {
+    top: 25%;
+}
+
+.about {
+    min-height: 570px;
+}
+
+h3.text1 {
+  font-size: 2em;    
+}
+
+.wrapcontent {
+  padding-top: 70px;
+  padding-bottom: 65px;
+}
+
+.wrapgallery {
+  padding-bottom: 65px;
+}
+
+.nav-pills {
+  margin-left: 37%;
+}
+
+.call > h6 {
+  font-size: 1.5em;
+}
+
+
+
+}
+
+
+@media (max-width: 1200px) {
+
+header {
+    height: 600px;
+}
+
+h1 {
+    font-size: 2.32em;
+}
+
+.navbar-brand > span {
+    font-size: 0.6em;
+}
+
+.clothestext1 {
+    margin-top: 175px;
+    font-size: 2.4em;
+}
+
+.clothestext3 {
+    margin-top: 90px;
+}
+
+.socseti {
+    top: 21%;
+}
+
+.workstext4 {
+  line-height: 1.5;
+}
+
+.workstext1 > p, .workstext2 > p {
+  margin: 60px 10px;
+}
+
+.servicestext1 {
+    padding: 5px 20px;
+}
+
+.servicestext1:hover h4:after {
+  width: 60%;
+}
+
+.nav-pills {
+  margin-left: 35%;
+}
+
+
+
+}
+
+
+
+@media (max-width: 992px) {
+
+/*!!!УМ-НИЕ РАЗМЕРОВ Заголовков БЛОКОВ*/
+
+header {
+    height: 500px;
+}
+
+/*УМ-НИЕ РАЗМЕРОВ заголовка и меню*/
+
+h1 {
+    font-size: 2.02em;
+}
+
+.navbar-brand > span {
+    font-size: 0.52em;
+}
+
+.navbar-default .navbar-nav > li > a {
+    padding: 5px 5px;
+}
+
+.socseti-icons > li {
+    width: 20px;
+    height: 20px;
+    padding-top: 1px;
+}
+
+.socseti-icons > li > a {
+    font-size: 0.8em;
+}
+
+.socseti-icons:after, .socseti-icons:before {
+    left: 10px;
+}
+
+.clothestext1 {
+    font-size: 2em;
+    margin: 130px 10% 30px;
+}
+
+.clothestext1 > span {
+    line-height: 1.35;
+}
+
+.clothestext3 {
+    margin: 75px 0 15px;
+}
+
+.known {
+    text-transform: uppercase;
+    font-size: 0.8125em;
+    width: 135px;
+    height: 37px;
+    padding-top: 10px;
+}
+
+.socseti {
+    top: 20%;
+}
+
+.clothes-socseti-icons > li {
+    margin: 20px auto;
+}
+
+h3.text1 {
+  font-size: 1.625em;
+  margin-bottom: 35px; 
+}
+
+.wrapcontent {
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.wrapgallery {
+  padding-bottom: 30px; 
+}
+
+.abouttext2 > h4 {
+  font-size: 1.2em;
+  margin-top: 30px;
+}
+
+.abouttext2 > ul > li {
+  font-size: 1.0625em;
+  padding: 5px 0;
+}
+
+.workstext1, .workstext2, .workstext3 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.workstext1 > p, .workstext2 > p {
+  margin: 85px 10px;
+}
+
+.workstext3 > figure {
+    display: block;
+    width: 50%;
+    float: left;
+}
+
+.workstext3 > p {
+    width: calc(50% - 10px);
+    width: -moz-calc(50% - 10px);
+    width: -o-calc(50% - 10px);;
+    width: -ms-calc(50% - 10px);
+    display: block;
+    float: left;
+    margin-top: 160px;
+    margin-left: 10px;
+}
+
+.wrapfacts > h4 {
+  font-size: 1.2em;
+}
+
+.factstext1 > h6 {
+  font-size: 1.7em;
+}
+
+.nav-pills {
+  margin-left: 33%;
+}
+
+.nav-pills > li > a {
+  font-size: 0.9em;
+}
+
+.call > h6 {
+  font-size: 1.4em;
+}
+
+footer .row > div:nth-child(1),
+footer .row > div:nth-child(2) {
+  width: 50%;
+  float: left;
+}
+
+footer .row > div:nth-child(3) {
+  width: 100%;
+}
+
+}
+
+@media (max-width: 991px) {
+
+.expertstext6, .expertstext7 {
+  float: left;
+  display: block;
+  width: 50%;
+}
+
+.expertstext7 {
+  width: calc(50% - 85px);
+    width: -moz-calc(50% - 85px);
+    width: -o-calc(50% - 85px);;
+    width: -ms-calc(50% - 85px);
+}
+
+.expertstext7:after {
+    width: 265px;
+    height: 2px;
+    top: 135px;
+    right: 150px;
+     bottom: auto; 
+     left: auto; 
+}
+
+
+}
+
+
+@media (max-width: 768px) {
+
+.services {
+  padding: 500px 0 0;
+  margin-top: 90px;
+}
+
+.leftservices {
+  max-width: 65%;
+  left: 25%;
+  top: -5%;
+}
+
+.nav-pills {
+  margin-left: 26%;
+}
+
+
+}
+
+@media (max-width: 767px) {
+
+/*!!!УМ-НИЕ РАЗМЕРОВ и заголовков БЛОКОВ*/
+
+header {
+    height: 405px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    background-color: rgba(0,0,0,0.85);
+    text-align: center;
+    margin: -10px auto 0 auto;
+    position: absolute;
+    z-index: 999;
+    width: 95%;
+    left: 2.5%;
+}
+
+.navbar-default .navbar-nav > li > a {
+    margin: 17px 15px;
+    padding: 5px 15px;
+    letter-spacing: 1.5px;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+
+     -webkit-transition: color 0.5s ease-out 0.1s;
+     -moz-transition: color 0.5s ease-out 0.1s;
+     -o-transition: color 0.5s ease-out 0.1s;
+     transition: color 0.5s ease-out 0.1s;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+    color: #0091ea;
+}
+
+.clothestext1 {
+    font-size: 1.7em;
+    margin: 85px 10% 25px;
+}
+
+.clothestext1 > span {
+    line-height: 1.5;
+}
+
+.clothestext3 {
+    margin: 55px 0 15px;
+}
+
+.socseti-icons:after, .socseti-icons:before {
+    height: 35px;
+}
+
+.socseti {
+    top: 15%;
+}
+
+.socseti-icons > li {
+    padding-left: 2px;
+}
+
+.wrapcontent {
+  padding-top: 50px;
+}
+
+h3.text1 {
+  font-size: 1.4375em;
+  margin-bottom: 25px;
+}
+
+.workstext1 > p, .workstext2 > p {
+  margin: 75px 10px;
+}
+
+.workstext4 {
+  letter-spacing: 0.2px;
+}
+
+.factstext1 {
+    float: left;
+    width: 33.333%;
+}
+
+.expertstext2, .expertstext5, .expertstext6 {
+  height: 305px;
+}
+
+.expertstext3, .expertstext7 {
+  margin: 90px 35px 0 10px;
+  padding-right: 10px;
+
+}
+
+.expertstext4 {
+  margin: 90px 10px 0 35px;
+  padding-right: 10px;
+}
+
+.expertstext3, .expertstext4, .expertstext7 {
+  width: calc(50% - 45px);
+    width: -moz-calc(50% - 45px);
+    width: -o-calc(50% - 45px);
+    width: -ms-calc(50% - 45px);
+}
+
+.expertstext3 > p, .expertstext4 > p, .expertstext7 > p {
+  letter-spacing: .25px;
+  line-height: 1.429em;
+
+}
+
+.expertstext3 > h6, .expertstext4 > h6, .expertstext7 > h6 {
+  font-size: 1.125em;
+}
+
+.mailtext1 {
+  font-size: 1.3em;
+}
+
+.call > h6 {
+  font-size: 1.3em;
+}
+
+
+
+}
+
+
+@media (max-width: 640px) {
+
+/*!!!УМ-НИЕ РАЗМЕРОВ*/
+
+
+header {
+    height: 350px;
+}
+
+.clothestext1 {
+    font-size: 1.5em;
+    margin: 65px 10% 20px;
+}
+
+.known {
+    font-size: 0.75em;
+    width: 130px;
+    height: 35px;
+    padding-top: 9px;
+}
+
+.clothestext3 {
+    margin: 35px 0 5px;
+}
+
+.socseti {
+    top: 10%;
+}
+
+.workstext1, .workstext2, .workstext3 {
+    width: 100%;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin: 0;
+}
+
+.workstext1 > p, .workstext1 > figure,
+.workstext2 > figure, .workstext2 > p,
+.workstext3 > figure, .workstext3 > p {
+  width: 100%;
+  clear: both;
+}
+
+.workstext1 > p, .workstext2 > p, .workstext3 > p, 
+.workstext1 > figure, .workstext2 > figure, .workstext3 > figure {
+    margin: 0 0 24px;
+}
+
+.services {
+  padding: 500px 0 0;
+}
+
+.leftservices {
+  left: 19%;
+}
+
+.wrapfa {
+  width: 80px;
+  height: 80px;
+  margin: 20px auto 15px;
+}
+
+.wrapfa > i {
+  margin-top: 20px;
+}
+
+.expertstext2 > img {
+  width: 175%;
+}
+
+.nav-pills {
+  margin-left: 22%;
+}
+
+
+
+}
+
+
+@media (max-width: 565px) {
+
+.expertstext2 > img {
+  width: 199%;
+}
+
+.nav-pills {
+  margin-left: 18%;
+}
+
+
+
+}
+
+
+
+@media (max-width: 500px) {
+
+/*!!!УМ-НИЕ РАЗМЕРОВ и заголовков БЛОКОВ*/
+
+header {
+    height: 345px;
+}
+
+h1 {
+    font-size: 1.7em;
+    letter-spacing: 3.7px;
+    margin-top: 20px;
+    margin-bottom: -7.5px;
+}
+
+.navbar-brand > span {
+    font-size: 0.45em;
+}
+
+.clothestext1 {
+    margin: 70px 10% 25px;
+    letter-spacing: 3px;
+}
+
+.clothestext1 > span {
+    letter-spacing: 4px;
+}
+
+.clothestext3 {
+    margin: 35px 0 5px;
+    text-align: center;
+}
+
+.clothesfooter {
+    margin-right: 10px;
+}
+
+.fa-envelope-o {
+    margin: 3px 5px;
+}
+
+.wrapcontent {
+  padding-top: 25px;
+  padding-bottom: 15px;
+}
+
+.wrapgallery {
+  padding-bottom: 35px;
+}
+
+h3.text1 {
+  margin-bottom: 11px;
+}
+
+.abouttext2 > h4 {
+  font-size: 1.1em;
+}
+
+.services {
+  padding: 450px 0 0;
+  margin-top: 120px;
+}
+
+.leftservices {
+  max-width: 75%;
+  left: 10%;
+}
+
+.factstext1 {
+    float: none;
+    width: 100%;
+}
+
+.factstext1 > h6 {
+  margin-bottom: 25px;
+}
+
+.expertstext2, .expertstext3, .expertstext4, 
+.expertstext5, .expertstext6, .expertstext7 {
+  float: none;
+}
+
+.expertstext2, .expertstext3, .expertstext4,
+.expertstext5, .expertstext6, .expertstext7 {
+  width: 100%;
+}
+
+.expertstext2, .expertstext5, .expertstext6 {
+  margin: 0;
+}
+
+.expertstext3, .expertstext4, .expertstext7 {
+  margin: 10px 0 20px 25px;
+}
+
+.expertstext3, .expertstext4, .expertstext7 {
+  width: calc(100% - 25px);
+    width: -moz-calc(100% - 25px);
+    width: -o-calc(100% - 25px);
+    width: -ms-calc(100% - 25px);
+}
+
+.expertstext2 > img {
+  width: 120%;
+}
+
+.expertstext4 {
+    position: absolute;
+    top: 305px;
+}
+
+.expertstext5 {
+    margin-bottom: 50px;
+}
+
+.expertstext6 {
+    margin-top: 80px;
+}
+
+.expertstext3:after, .expertstext4:after, .expertstext7:after {
+    content: "";
+    background: #0091ea;
+    position: absolute;
+    z-index: 999;
+}
+
+.expertstext3:after, .expertstext4:after, .expertstext7:after {
+    width: 2px;
+    height: 265px;
+    top: -200px;
+    left: -10px;
+    right: initial;
+}
+
+.nav-pills {
+  margin-left: 12%;
+}
+
+.call > h6 {
+  font-size: 1.2em;
+}
+
+footer .row > div:nth-child(1),
+footer .row > div:nth-child(2) {
+  width: 100%;
+  float: none;
+}
+
+}
+
+
+@media (max-width: 450px) {
+
+.services {
+  margin-top: 110px;
+}
+
+.leftservices {
+  max-width: 85%;
+  left: 7%;
+}
+
+.expertstext2 > img {
+  width: 140%;
+}
+
+.nav-pills {
+  margin-left: 17%;
+}
+
+.nav-pills > li > a {
+  font-size: 0.8em;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+
+
+}
+
+
+@media (max-width: 392px) {
+
+.expertstext6 {
+    margin-top: 100px;
+}
+
+.nav-pills {
+  margin-left: 14%;
+}
+
+
+
+}
+
+
+@media (max-width: 375px) {
+
+/*!!!УМ-НИЕ РАЗМЕРОВ*/
+
+header {
+    height: 300px;
+}
+
+.clothestext1 {
+    font-size: 1.1em;
+    margin: 45px 10% 15px;
+    letter-spacing: 3px;
+}
+
+.clothestext1 > span {
+    line-height: 1.65;
+    letter-spacing: 4px;
+}
+
+.known {
+    text-transform: uppercase;
+    font-size: 0.75em;
+    width: 120px;
+    height: 30px;
+    padding-top: 7px;
+}
+
+.clothestext3 {
+    margin: 25px 0 5px;
+}
+
+.socseti {
+    top: 0.2%;
+}
+
+.workstext1 > p, .workstext2 > p, .workstext3 > p, 
+.workstext1 > figure, .workstext2 > figure, .workstext3 > figure {
+    margin: 0 0 14px;
+}
+
+.workstext1 > figure > figcaption > p,
+.workstext2 > figure > figcaption > p,
+.workstext3 > figure > figcaption > p {
+  line-height: 1.5;
+}
+
+.services {
+  padding: 375px 0 0;
+  margin-top: 105px;
+}
+
+.expertstext2 > img {
+  width: 165%;
+}
+
+.nav-pills {
+  margin-left: 7%;
+}
+
+.call > h6 {
+  font-size: 1.1em;
+}
+
+
+
+
+}

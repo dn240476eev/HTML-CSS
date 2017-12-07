@@ -1,0 +1,852 @@
+html {
+	overflow-x: hidden; 
+}
+
+body {
+	background-color: #ffffff;
+	/*max-width: 1140px;*/
+	max-width: 100%;
+	min-width: 320px;
+	min-height: 100%;
+	margin: 0 auto;
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	line-height: 1.221;
+	color: #ffffff;
+	overflow-x: hidden; 
+}
+
+@font-face {
+    font-family: 'Open Sans light'; /* имя шрифта для CSS правил */
+    src: local("Open Sans light"), /* проверяем наличие шрифта в ОС пользователя */
+    url("../fonts/open-sans.light.ttf") format("truetype"); /* если шрифт не установлен, тогда загружаем его по указанному пути */
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans semibold'; /* имя шрифта для CSS правил */
+    src: local("Open Sans semibold"), /* проверяем наличие шрифта в ОС пользователя */
+    url("../fonts/open-sans.semibold.ttf") format("truetype"); /* если шрифт не установлен, тогда загружаем его по указанному пути */
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+@font-face {
+    font-family: 'Open Sans italic'; /* имя шрифта для CSS правил */
+    src: local("Open Sans italic"), /* проверяем наличие шрифта в ОС пользователя */
+    url("../fonts/open-sans.italic.ttf") format("truetype"); /* если шрифт не установлен, тогда загружаем его по указанному пути */
+    font-style: normal;
+    font-weight: normal;
+}
+
+.col-lg-6, .col-md-6, .col-sm-6, .col-xs-12 {
+  padding: 0 15px; 
+  margin: 0;
+}
+
+h1, .h1, h2, .h2, h3, .h3, p {
+     margin: 0;
+}
+
+.container-fluid {
+    padding-right: 0; 
+    padding-left: 0; 
+}
+
+.row {
+     margin-right: 0; 
+     margin-left: 0; 
+}
+
+.wrapmenu, .welcome, .about, .team, .servises, .client, .work, .testimonial,
+.footerwrap {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+.wrapmenu, .welcome, .about, .wrapmenu2, .testimonial {
+    padding-right: 15px; 
+    padding-left: 15px; 
+}
+
+header {
+	background: #111111;
+	min-height: 790px;
+}
+
+
+/*МЕНЮ*/
+
+.navbar {
+	min-height: 96px;
+	padding: 0;
+	margin-bottom: 0;
+	background: #111111;
+	border: none;
+    font-weight: bold;
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+}
+
+.wrapmenu > .navbar-header > .navbar-brand {
+	padding-top: 55px;
+}
+
+h1 {
+	color: #ffffff;
+	font-size: 1.335em;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+	font-size: 1.16667em;
+}
+
+.activ {
+    background: url(../image/shape.png) no-repeat 100% 100%;
+    background-size: contain;
+}
+
+
+.navbar-default .navbar-nav > .active > a {
+	background-color: transparent;
+	color: #ffffff;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus
+ {
+    color: #FCAC45;
+    background: url(../image/shape.png) no-repeat 100% 100%;
+    background-size: contain;
+}
+
+.navbar-collapse > .navbar-nav > li > a {
+    padding: 60px 0 20px;
+    margin: 0 14px;
+}
+
+.navbar-nav > li.right > a {
+	padding-right: 0;
+}
+
+/*конец МЕНЮ*/
+
+
+/*блок WELCOME*/
+
+.welcome {
+	text-align: center;
+}
+
+h2.font {
+	color: #999999;
+	font-size: 3.66667em;
+	text-transform: uppercase;
+	padding: 200px 0 20px;
+}
+
+h2.font > span {
+    color: #FCAC45;
+	font-weight: bold;
+}
+
+.font1 {
+	font-size: 1.66667em;
+	color: #B0B0B0;
+	padding: 0 7px 275px;
+}
+
+.font1 > span {
+	color: #D5D5D5;
+	font-weight: bold;
+}
+
+.welcmargin {
+	margin-bottom: 80px;
+}
+
+/*блок ABOUT*/
+
+.about {
+	min-height: 610px;
+	background: url('../image/monitor2.png') no-repeat 0 100%;
+	background-size: contain;
+	color: #4D5866;
+}
+
+.col-md-offset-6, .col-sm-offset-6, .col-xs-offset-6 {
+	padding-left: 80px;
+}
+
+.abouttext1 {
+	margin: 100px 0 15px;
+	font-size: 1.66667em;
+	color: #636363;
+	text-transform: uppercase;
+}
+
+.abouttext2 {
+	font-size: 2.833334em;
+	color: #222222;
+	text-transform: uppercase;
+}
+
+.abouttext2 > span {
+	font-weight: bold;
+}
+
+.line {
+	width: 98.22px;
+	height: 4px;
+	background: #FCAC45;
+	margin-top: 7px;
+}
+
+.abouttext3 {
+	font-size: 1.5em;
+	color: #6C6C6C;
+    margin: 30px 10px 40px 0;
+}
+
+.abouttext4 {
+	font-size: 1.5em;
+	color: #5A5A5A;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.abouttext4 > span {
+	font-weight: normal;
+	font-style: italic;
+}
+
+.abouttext4 > img {
+	display: inline-block;
+	margin-top: -3px;
+	margin-right: 5px;
+}
+
+.abouttext5 {
+	width: 192px;
+	min-height: 45px;
+	background: transparent;
+	border: #7F7F7F 1.5px solid;
+	border-radius: 3px;
+	color: #6F6F6F;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 32px 0 100px;
+}
+
+.abouttext5 > a > span {
+	color: #6F6F6F;
+	margin-left: 10px;
+}
+
+.abouttext5 > a > img {
+	display: inline-block;
+	margin-top: -3px;
+}
+
+.abouttext5 > a:hover {
+	text-decoration: none;
+}
+
+
+/*блок TEAM*/
+
+.teamsection {
+	background: #070707;
+	min-height: 725px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.teamtext1 {
+	font-size: 3.66667em;
+	text-transform: uppercase;
+	margin: 100px 0 29px;
+	font-family: 'Open Sans light';
+}
+
+.teamtext1 > span {
+	font-family: 'Open Sans semibold';
+}
+
+.teamline1 {
+	width: 98.22px;
+	height: 4px;
+	background: #FCAC45;
+	margin: 0 auto;
+}
+
+.teamline2 {
+	width: 66.47px;
+	height: 4px;
+	background: #B37B33;
+	margin: 10px auto 0;
+}
+
+.teamtext2 {
+	width: 127px;
+	height: 127px;
+	border-radius: 100px;
+	background: #D7D7D7;
+	margin: 0 auto;
+	margin-top: 92px;
+}
+
+.teamtext3, .teamtext4, .teamtext5 {
+	padding-left: 5px;
+	padding-right: 5px;
+
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.teamtext3 {
+	font-size: 1.66667em;
+	margin: 21px 0 11px;
+	font-weight: bold;	
+}
+
+.teamtext4 {
+	font-size: 1.33334em;
+	margin-bottom: 33px;
+}
+
+.teamtext5 {
+	font-size: 1.166667em;
+	line-height: 1.9;
+}
+
+/*Слайдер 1*/
+
+.slider1 {
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.slider1 .bx-wrapper {
+	max-width: 100%;
+	background: transparent;
+	border: none;
+	box-shadow: none;
+	margin: 0 auto;
+	margin-bottom: 164px;
+}
+
+.slider1 .bx-wrapper .bx-pager {
+	bottom: -75px;
+}
+
+.slider1 .bx-wrapper .bx-pager.bx-default-pager a {
+	border-radius: 0;
+	background: #ffffff;
+}
+
+.slider1 .bx-wrapper .bx-pager.bx-default-pager a.active,
+.slider1 .bx-wrapper .bx-pager.bx-default-pager a:hover {
+	background: #FCAC45;
+}
+
+
+/*блок SERVISES*/
+
+.servises {
+	min-height: 735px;
+	text-align: center;
+	color: #222222;
+	margin: 0 auto;
+}
+
+.servistext1 {
+	font-size: 3.66667em;
+	text-transform: uppercase;
+	margin: 100px 0 29px;
+	font-family: 'Open Sans light';
+}
+
+.servistext1 > span {
+	font-family: 'Open Sans semibold';
+}
+
+.servisline1 {
+	width: 98.22px;
+	height: 4px;
+	background: #FCAC45;
+	margin: 0 auto;
+}
+
+.servisline2 {
+	width: 66.47px;
+	height: 4px;
+	background:#FDC57C;
+	margin: 10px auto 0;
+}
+
+.servistext2 {
+	font-family: 'Open Sans italic';
+	font-size: 1.333334em;
+	margin: 40px -12px 0;
+	color: #6C6C6C;
+}
+
+.servistext3, .servistext4, .servistext5 {
+	padding-left: 5px;
+	padding-right: 5px;
+
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.servistext3 {
+	width: 124.5px;
+	height: 124.5px;
+	border-radius: 100px;
+	border: 4px solid #FCAC45;
+	background: transparent;
+	margin: 0 auto;
+	margin-top: 105px;
+}
+
+.servistext4 {
+	font-size: 2.0833334em;
+	margin: 27px 0 22px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.servistext5 {
+	font-size: 1.1666667em;
+}
+
+
+/*блок CLIENTS*/
+
+.clientsection {
+	/*background: #070707;*/
+	height: 515px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.clienttext1 {
+	font-size: 3.66667em;
+	text-transform: uppercase;
+	margin: 100px 0 29px;
+	font-family: 'Open Sans light';
+}
+
+.clienttext1 > span {
+	font-family: 'Open Sans semibold';
+}
+
+.clienttext2 {
+	margin: 100px 0 0;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
+/*Слайдер 2*/
+
+.slider2 {
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.slider2 .bx-wrapper {
+	max-width: 100%;
+	background: transparent;
+	border: none;
+	box-shadow: none;
+	margin: 0 auto;
+	margin-bottom: 210px;
+}
+
+.slider2 .bx-wrapper .bx-pager {
+	bottom: -105px;
+}
+
+.slider2 .bx-wrapper .bx-pager.bx-default-pager a {
+	border-radius: 0;
+	background: #ffffff;
+}
+
+.slider2 .bx-wrapper .bx-pager.bx-default-pager a.active,
+.slider2 .bx-wrapper .bx-pager.bx-default-pager a:hover {
+	background: #FCAC45;
+}
+
+
+
+/*Слайдер 4*/
+
+.slider4 {
+	max-width: 100%;
+	margin: 0 auto;
+	bottom: 515px;
+    position: relative;
+    z-index: -1;
+}
+
+.myslider4 > li {
+	margin-left: -40px;
+	min-height: 515px;
+}
+
+.slider4 .bx-wrapper {
+	max-width: 100%;
+	background: transparent;
+	border: none;
+	box-shadow: none;
+	margin: 0 auto;
+}
+
+
+/*блок WORK*/
+
+.work {
+	min-height: 1335px;
+	text-align: center;
+	color: #222222;
+	margin: 0 auto;
+	padding-bottom: 35px;
+}
+
+.worktext1 {
+	font-size: 3.66667em;
+	text-transform: uppercase;
+	margin: 100px 0 29px;
+	font-family: 'Open Sans light';
+}
+
+.worktext1 > span {
+	font-family: 'Open Sans semibold';
+}
+
+.worktext2 {
+	font-family: 'Open Sans italic';
+	font-size: 1.333334em;
+	margin: 40px -12px 0;
+	color: #6C6C6C;
+}
+
+.worktext3 {
+	max-width: 263px;
+	/*max-height: 237px;*/
+	margin: 0 auto;
+	display: inline-block;
+	margin-bottom: 30px;
+} 
+
+.worktext3 > a > img {
+	width: 100%;
+}
+
+.worktext3 > img {
+	width: 100%;
+}
+
+/*Лупа*/
+
+.forlupa {
+    height: 267px;
+}
+
+.worktext3 a:hover img {
+	position: relative;
+	display: block;
+	z-index: -1;
+}
+
+ .worktext3 a:hover {
+	position: relative;
+	display: block;
+	background: url(../image/website.png) no-repeat 50% 50%;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+}
+
+/*Конец лупы*/
+
+
+
+/*МЕНЮ2*/
+
+.wrapmenu2 {
+	margin-top: 105px;
+	margin-bottom: 45px;
+
+}
+
+.wrapmenu2 > .navbar-header > .navbar-brand {
+	padding: 5px 0 0;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-family: 'Open Sans semibold';
+	height: 20px;
+}
+
+.wrapmenu2 .navbar-nav > li {
+	border-right: 1px solid #6C6C6C;
+}
+
+.wrapmenu2 .navbar-nav > li.right2 {
+	border-right: none;
+}
+
+.wrapmenu2 .navbar-nav > li > a {
+    color: #6C6C6C;
+	font-size: 1.5em;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.activ2 {
+	font-weight: bolder;
+	color: #222222;
+}
+
+.navbar-default .navbar-nav > .active > a {
+	background-color: transparent;
+	color: #ffffff;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus
+  {
+    color: #FCAC45;
+	background-color: transparent;
+}
+
+.navbar-collapse > .navbar-nav > li > a {
+    padding: 60px 0 20px;
+    margin: 0 14px;
+}
+
+.navbar-nav > li.right > a {
+	padding-right: 0;
+}
+
+/*конец МЕНЮ*/
+
+
+/*блок Testimonials*/
+
+.testimonialsection {
+	background: #070707;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+/*Слайдер 3*/
+
+.slider3 {
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.myslider3 > li {
+	margin-left: -40px;
+}
+
+.slider3 .bx-wrapper {
+	max-width: 100%;
+	background: transparent;
+	border: none;
+	box-shadow: none;
+	margin: 0 auto;
+}
+
+.color0 {
+	background: #070707;
+}
+
+.color1 {
+	background: #4B4B4B;
+}
+
+.color2 {
+	background: #51526E;
+}
+
+.color3 {
+	background: #282828;
+}
+
+.color4 {
+	background: #31343D;
+}
+
+.testimonialtext1 {
+	font-size: 3.66667em;
+	text-transform: uppercase;
+	margin: 100px 0 29px;
+	font-family: 'Open Sans semibold';	
+}
+
+.testimonialtext1 > span {
+	font-family: 'Open Sans light';
+}
+
+.testimonialtext2 {
+	font-size: 1.5em;
+	color: #E8E8E8;
+	margin: 100px 0 50px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.testimonialtext3 {
+	color: #929292;
+	font-size: 1.5em;
+	font-family: 'Open Sans semibold';
+	text-decoration: none;
+	padding-bottom: 170px;
+}
+
+.testimonialtext3 > span {
+	font-family: 'Open Sans light';
+}
+
+.slider3 .bx-wrapper .bx-pager {
+	bottom: 85px;
+}
+
+.slider3 .bx-wrapper .bx-pager.bx-default-pager a {
+	border-radius: 0;
+	background: #ffffff;
+}
+
+.slider3 .bx-wrapper .bx-pager.bx-default-pager a.active,
+.slider3 .bx-wrapper .bx-pager.bx-default-pager a:hover {
+	background: #FCAC45;
+}
+
+
+/*блок Contact*/
+
+.contact {
+	min-height: 835px;
+	max-width: 785px;
+	text-align: center;
+	color: #222222;
+	margin: 0 auto;
+	padding-bottom: 100px;
+	position: relative;
+}
+
+.contactpadding1 {
+	padding: 10px 15px 0;
+}
+
+.contacttext1 {
+	font-size: 3.66667em;
+	text-transform: uppercase;
+	margin: 100px 0 29px;
+	font-family: 'Open Sans light';
+}
+
+.contacttext1 > span {
+	font-family: 'Open Sans semibold';
+}
+
+.contacttext2 {
+	font-family: 'Open Sans italic';
+	font-size: 1.333334em;
+	margin: 40px 0 95px;
+	color: #6C6C6C;
+}
+
+.form {
+
+}
+
+.form-group {
+	text-align: left;
+}
+
+.form-control {
+	border-radius: 0;
+}
+
+label {
+	font-size: 1.1666667em;
+	color: #636363;
+	font-weight: normal;
+}
+
+label > span {
+	color: #DB0000;
+	font-weight: bold;
+}
+
+textarea {
+	min-height: 165px;
+}
+
+.contacttext3, .contacttext3:hover {
+	min-height: 40px;
+	min-width: 165px;
+	text-transform: uppercase;
+	background: #FCAC45;
+	color: #ffffff;
+	margin-top: 20px;
+	font-size: 1.1666667em;
+	border: none;
+	border-radius: 0;
+	display: inline-block;
+	position: absolute;
+	/*bottom: 10px;*/
+	right: 15px;
+}
+
+
+/*Футер*/
+
+footer {
+	min-height: 90px;
+	background: #222222;
+}
+
+.footertext1 {
+	color: #969696;
+	padding-top: 40px;
+}
+
+.footertext1 > span {
+	color: #B2B2B2;
+	font-family: 'Open Sans semibold';
+}
+
+.footertext2 {
+	text-align: right;
+	padding-top: 29px;
+}
+
+.footertext3 {
+	margin-left: 7px;
+}
+
+
+

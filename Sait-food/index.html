@@ -1,0 +1,189 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+  <div class="container-fluid"> <!-- резиновые блоки -->
+
+  <!-- Header -->
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12  col-xs-12 header">
+        <h1>Самый вкусный сайт <small>на Bootstrap</small></h1>
+         <span class="glyphicon glyphicon-earphone"></span>
+        <a href="#"><img src="image/call1.JPG"></a>
+      </div>
+    </div>
+
+<!-- Меню -->
+<!--     <div class="row bars">
+      <div class="col-lg-12 col-md-12 col-sm-12  col-xs-12">
+        <ul class="nav nav-pills nav-justified">
+          <li class="active"><a href="#">Все рецепты</a></li>          
+          <li><a href="#">Первые блюда</a></li> 
+          <li><a href="#">Основные блюда</a></li>
+          <li><a href="#">Выпечка</a></li>
+          <li><a href="#">Десерты</a></li>
+          <li><a href="#">О нас</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+      </div>
+    </div> -->
+
+    <div class="row bars">
+      <div class="col-lg-12 col-md-12 col-sm-12  col-xs-12">
+        <ul class="nav nav-pills nav-justified">
+          <li class="active"><a href="#">Все рецепты</a></li>          
+          <li><a href="#">Первые блюда</a></li> 
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Основные блюда <span class="caret"></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Блюдо 1</a></li>
+              <li><a href="#">Блюдо 2</a></li>
+              <li><a href="#">Блюдо 3</a></li>
+            </ul>           
+          </li>
+          <li><a href="#">Выпечка</a></li>
+          <li><a href="#">Десерты</a></li>
+          <li><a href="#">О нас</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+      </div>
+    </div>
+
+<!-- <ul class="nav nav-pills">
+  ...
+  <li class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+      Dropdown <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu">
+      ...
+    </ul>
+  </li>
+  ...
+</ul> -->
+
+<!-- Banner -->
+    <div class="row css_animation banner">
+      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 bannercol">
+        <img src="image/main_course1.jpg" >
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 bannercol">
+        <img src="image/cofee2.jpg" >
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 bannercol">
+        <img src="image/cake.jpg" >
+      </div>
+    </div>
+<!--     <div class="row">
+      <div class="col-lg-12 banner css_animation">
+        <img src="image/cofee1.jpg" >
+      </div>
+    </div> -->
+
+  <div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12  col-xs-12 header">
+       <h2>Как приготовить вкусную еду:</h2>
+      </div>
+    </div>
+<!-- Content -->
+<!-- 6 блоков при col-lg- 
+2 ряда по 3 блока .col-md-
+3 ряда по 2 блока col-sm- -->
+  <div class="row contentrow">
+      <div class="col-lg-2 col-md-4 col-sm-6 color-top" id="contentcol">
+      <span class="glyphicon glyphicon-flag"></span><br>
+        <div class="thumbnail">
+          <img src="image/top.jpg" alt="...">
+          <div class="caption">
+            <h3>ТОП-рецепты</h3>
+            <p id="contentp">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+            <p><a href="#" class="btn btn-primary" role="button">Читать</a> 
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-2 col-md-4 col-sm-6 color-health" id="contentcol">
+      <span class="glyphicon glyphicon-flag"></span><br>
+        <div class="thumbnail">
+          <img src="image/health.jpg" alt="...">
+          <div class="caption">
+            <h3>Здоровое питание</h3>
+            <p id="contentp">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident eaque voluptas vero repellat vitae velit mollitia magni tempore dolorum aspernatur, fuga placeat odio iusto, perferendis cupiditate libero consectetur culpa! Laborum!</p>
+            <p><a href="#" class="btn btn-primary" role="button">Читать</a> 
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-2 col-md-4 col-sm-6 color-romantic" id="contentcol">
+      <span class="glyphicon glyphicon-flag"></span><br>
+        <div class="thumbnail">
+          <img src="image/romantic.jpg" alt="...">
+          <div class="caption">
+            <h3>Романтик</h3>
+            <p id="contentp">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident eaque voluptas vero repellat vitae velit mollitia magni tempore dolorum aspernatur, fuga placeat odio iusto, perferendis cupiditate libero consectetur culpa! Laborum!</p>
+            <p><a href="#" class="btn btn-primary" role="button">Читать</a> 
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-2 col-md-4 col-sm-6 color-master" id="contentcol">
+      <span class="glyphicon glyphicon-flag"></span><br>
+        <div class="thumbnail">
+          <img src="image/master.jpg" alt="...">
+          <div class="caption">
+            <h3>Мастер-классы</h3>
+            <p id="contentp">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident eaque voluptas vero repellat vitae velit mollitia magni tempore dolorum aspernatur, fuga placeat odio iusto, perferendis cupiditate libero consectetur culpa! Laborum!</p>
+            <p><a href="#" class="btn btn-primary" role="button">Читать</a> 
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-2 col-md-4 col-sm-6 color-pasha" id="contentcol">
+      <span class="glyphicon glyphicon-flag"></span><br>
+        <div class="thumbnail">
+          <img src="image/pasha.jpg" alt="...">
+          <div class="caption">
+            <h3>Пасха</h3>
+            <p id="contentp">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident eaque voluptas vero repellat vitae velit mollitia magni tempore dolorum aspernatur, fuga placeat odio iusto, perferendis cupiditate libero consectetur culpa! Laborum!</p>
+            <p><a href="#" class="btn btn-primary" role="button">Читать</a> 
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-2 col-md-4 col-sm-6 color-tender " id="contentcol">
+      <span class="glyphicon glyphicon-flag"></span><br>
+        <div class="thumbnail">
+          <img src="image/tender.jpg" alt="...">
+          <div class="caption">
+            <h3>Внимание! Конкурс</h3>
+            <p id="contentp">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident eaque voluptas vero repellat vitae velit mollitia magni tempore dolorum aspernatur, fuga placeat odio iusto, perferendis cupiditate libero consectetur culpa! Laborum!</p>
+            <p><a href="#" class="btn btn-primary" role="button">Читать</a> 
+          </div>
+        </div>
+      </div>
+
+  </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>

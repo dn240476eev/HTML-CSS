@@ -1,0 +1,153 @@
+@media (min-width: 769px) and (max-width: 992px) {
+
+.marginformap
+{
+    margin-top: 10px;
+}
+
+
+}
+
+
+@media (max-width: 768px) {
+
+.marginformap {
+    margin-top: 10px;
+}
+
+
+}
+
+
+@media (min-width: 501px) and (max-width: 767px) {
+
+.bx-wrapper {
+    top: -327px;
+}
+
+.tel {
+	padding-top: 5px;
+    text-align: center;
+}
+
+.tel img.tel1 {
+    margin: 0 auto;
+}
+
+.tel img.tel2 {
+    margin: 0 auto;
+}
+
+.telblock1 {
+  display: inline-block;
+  text-align: center;
+}
+
+.telblock {
+    display: none;
+}
+
+.slider {
+    min-height: 244px;
+}
+
+div.caption.teltext {
+	padding-top: 0;
+
+}
+
+.bx-wrapper .bx-pager {
+    display: none;
+}
+
+.padding1, .padding2 {
+    padding-right: 1px;
+    padding-left: 1px;
+}
+
+.padding1  {
+    padding-bottom: 3px;
+}
+
+.map-responsive {
+    padding-bottom: 155px;
+
+}
+
+
+}
+
+
+@media (max-width: 500px) {
+
+.bx-wrapper {
+    top: -327px;
+}
+
+.tel {
+    padding-top: 5px;
+    text-align: center;
+}
+
+.tel img.tel1 {
+    margin: 0 auto;
+}
+
+.tel img.tel2 {
+    margin: 0 auto;
+}
+
+.telblock1 {
+  display: inline-block;
+  text-align: center;
+}
+
+.telblock {
+    display: none;
+}
+
+.slider {
+    min-height: 444px;
+}
+
+.bx-wrapper .bx-pager {
+    display: none;
+}
+
+div.caption.teltext {
+	padding-top: 0;
+}
+
+.input#exampleInputText1 {
+    margin-top: 10px;
+}
+
+.padding1, .padding2 {
+    padding-right: 1px;
+    padding-left: 1px;
+}
+
+.padding1  {
+    padding-bottom: 3px;
+}
+
+.map-responsive {
+    padding-bottom: 155px;
+
+}
+
+
+}
+
+
+@media (max-width: 340px) {
+
+.bx-wrapper {
+    top: -319px;
+}
+
+.slider {
+    height: 740px;
+}
+
+}

@@ -1,0 +1,556 @@
+body {
+	background-color: #ffffff;
+	max-width: 100%;
+	min-width: 320px;
+	min-height: 100%;
+	margin: 0 auto;
+	font-family: 'Open Sans Light', arial;
+	font-size: 12px;
+	line-height: 1.221;
+}
+
+header {
+	background-color: #5b6169;
+	min-height: 90px;
+}
+
+.slider {
+	background-image: url('../image/blue.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*background-attachment: fixed;*/
+	min-height: 471px;
+}
+
+.servis {
+	min-height: 495px;
+}
+
+article {
+	background-color: #D1D1D1;
+	min-height: 620px;
+}
+
+footer {
+	min-height: 100px;
+}
+
+.wrapmenu, .wraptel, .wrapservis, .wrapabout, 
+.wrapfuter {
+	max-width: 940px;
+}
+
+.container-fluid {
+  padding-right: 17px; 
+  padding-left: 17px; 
+ 
+}
+
+.col-lg-6, .col-md-6, .col-sm-6,  .col-xs-12 {
+  padding-right: 0; 
+  padding-left: 0; 	
+}
+
+h2 {
+	font-size: 4em;
+  color: #5b6169;
+}
+
+/*Меню*/
+
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.navbar {
+  min-height: 88px;
+  margin-bottom: 0;
+}
+
+.navbar-brand {
+  font-family: "MyriadProRegular";
+	font-size: 2em;
+  height: 88px; 
+  padding: 24px 0;
+  line-height: 4px;
+}
+
+.navbar-brand h1 {
+  font-size: 1em;
+	margin: 0;
+}
+
+span {
+	font-size: 0.58334em;	
+}
+
+/*Тень, наложение градиента*/
+
+.navbar-default .navbar-brand {
+	text-shadow: 0px 2px 1px rgba(150, 150, 150, 0.88);
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+.navbar-default .navbar-brand {
+     background: -webkit-linear-gradient(top, #FFFFFF 100%,#1d1b1b 50%,#252424 51%,#FFFFFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+}
+
+.navbar-collapse {
+     padding-right: 0; 
+     padding-left: 0;
+}
+
+.navbar-default .navbar-nav > li > a {
+	font-size: 1.334em;
+    color: #ffffff;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #7BD1F8;
+}
+
+/*Расстояние меж пп меню*/
+.nav > li > a {
+    padding: 34px 21px 0 21px;
+}
+
+.nav > li.right > a {
+	padding-right: 0;
+}
+
+
+/*СЛАЙДЕР*/
+
+.telblock1 {
+  display: none;
+}
+
+.tel {
+  padding-top: 33px;
+  height: 443px;
+}
+
+.tel img.tel1 {
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+}
+
+.tel img.tel2 {
+  display: inline-block;
+  position: relative;
+  z-index: 9999;
+
+  padding-right: 41px;
+}
+
+.tel1 li {
+  display: inline-block;
+  position: relative;
+  z-index: 9999; 
+}
+
+.bx-wrapper {
+  box-shadow: none;
+  border: 5px solid transparent;
+  background: transparent;
+
+  position: relative;
+  z-index: 9999;
+  left: -18px;
+  top: -327px;
+}
+
+.tel > img, .tel1 > img {
+	max-width: 100%;
+}
+
+.myslider > img {
+	max-width: 100%;
+}
+
+.bx-wrapper .bx-pager {
+  font-weight: bold;
+  color: #666;
+  display: inline-block;
+  bottom: 60px;
+  width: 60px;
+  left: 193%;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a {
+	background: #8cc0ea;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a.active {
+	background: #3674ba;
+}
+
+
+/*Блок справа от СЛАЙДЕРА*/
+
+div.caption.teltext {
+	padding-top: 120px;
+  padding-left: 8px;
+  padding-right: 0;
+}
+
+h2.sliderhead {
+  font-family: "OpenSansRegular";
+  color: #ffffff;
+  margin-top: : 0;
+  margin-bottom: 18px;
+  margin-bottom: 18px;
+
+  /*Эффекты*/
+text-shadow: 1.5px 2px 1px rgba(73, 73, 73, 0.9);
+
+    -webkit-mask-image: -webkit-linear-gradient(top, rgba(0,0,0,1), rgba(0,0,0,.6) 50%, rgba(0,0,0,1));
+    -webkit-mask-image: linear-gradient(top, rgba(0,0,0,1), rgba(0,0,0,.55) 50%, rgba(0,0,0,1)); 
+
+/*text-shadow: #fff 0 0 10px;*/
+
+}
+
+p#contentp.text {
+  font-size: 1.5em;
+  color: #335565;
+  line-height: 1.2;
+  margin-bottom: 30px;
+}
+
+
+.btn-primary.options1 {
+    color: #ffffff;
+    font-size: 1.5em;
+    background-color: #72abda;
+    border-color: #72abda;
+    text-shadow: 1px 2px 1px rgba(73, 73, 73, 0.95);
+    border-radius: 0;
+    width: 170px;
+    height: 40px;
+    padding: 5px;
+}
+
+
+/*Блок OUR SERVICES*/
+
+.thumbnail {
+	margin-bottom: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	border: 0;
+  background: transparent;
+}
+
+.margin1 {
+  margin-top: 62px;
+  margin-bottom: 55px;
+}
+
+.margin3 {
+  margin-bottom: 30px;
+}
+
+/*Это блок по боковым линиям слева и справа от текста*/
+
+h2.line1 {
+  /* чтобы линии не выходили за ширину блока заголовка */
+  overflow: hidden;
+}
+
+h2.line1:before,
+h2.line1:after {
+  content: '';
+  /* делаем линию строчно-блочной */
+  display: inline-block;
+  /* выравниваем вертикально по середине */
+  vertical-align: middle;
+  /* не позволяем ширине превысить 100% (будет добавлен бордюр) */
+  box-sizing: border-box;
+  /* если установка ширины в 100% делает линию равной ширине тега заголовка
+  ** благодаря этому линия заполнит все свободное пространство
+  ** слева и справа от текста
+  */
+  width: 263px;
+  height: 1px;
+  background: #40444a;
+  /* добавляем к линии левый и правый бордюр цветом основного фона заголовка
+  ** благодаря этому создается нужный отступ между линиями и текстом
+  */
+  border: solid #FFF;
+  border-width: 0 19px;
+}
+
+h2.line1:before {
+  /* смещаем левую линию влево отрицательным отступом, равным 100% ширины
+  ** благодаря этому линия встает слева от текста
+  */
+  margin-left: -100%;
+}
+
+h2.line1:after {
+  /* смещаем правую линию вправо отрицательным отступом, равным 100% ширины
+  ** благодаря этому линия встает справа от текста
+  */
+  margin-right: -100%;
+}
+
+/*Картинки*/
+
+.thumbnail > img {
+	width: 124px;
+}
+
+/*Ссылка*/
+.caption > a {
+	text-decoration: none;
+}
+
+/*Отступы*/
+
+.center {
+	text-align: center;
+}
+
+/*отступы блока после картинки*/
+.thumbnail .caption {
+	padding: 30px 16px 0 16px;
+}
+
+h3 {
+	margin-top: 0;
+	margin-bottom: 30px;
+	font-family: "OpenSansRegular";
+	font-size: 1.8334em;
+	color: #3674ba;
+	text-transform: uppercase;
+}
+
+.caption p.text1 {
+	font-family: "ArialRegular";
+	font-size: 1.1667em;
+	color: #4e4e4e;
+	margin-bottom: 30px;
+}
+
+/*кнопка*/
+.btn-primary.options2 {
+    color: #ffffff;
+    background-color: #3674ba;
+    border-color: #3674ba;
+    /*font-size: 1em;*/
+    text-shadow: 1px 2px 1px rgba(73, 73, 73, 0.95);
+    border-radius: 0;
+    width: 127px;
+    height: 30px;
+    padding: 3px;
+}
+
+/*Блок ABOUT*/
+
+.margin2 {
+  margin-top: 62px;
+  margin-bottom: 58px;
+}
+
+/*Это блок по боковым линиям слева и справа от текста*/
+
+h2.line2 {
+  /* чтобы линии не выходили за ширину блока заголовка */
+  overflow: hidden;
+}
+
+h2.line2:before,
+h2.line2:after {
+  content: '';
+  /* делаем линию строчно-блочной */
+  display: inline-block;
+  /* выравниваем вертикально по середине */
+  vertical-align: middle;
+  /* не позволяем ширине превысить 100% (будет добавлен бордюр) */
+  box-sizing: border-box;
+  /* если установка ширины в 100% делает линию равной ширине тега заголовка
+  ** благодаря этому линия заполнит все свободное пространство
+  ** слева и справа от текста
+  */
+  width: 263px;
+  height: 1px;
+  background: #40444a;
+  /* добавляем к линии левый и правый бордюр цветом основного фона заголовка
+  ** благодаря этому создается нужный отступ между линиями и текстом
+  */
+  border: solid #D1D1D1;
+  border-width: 0 19px;
+}
+
+h2.line2:before {
+  /* смещаем левую линию влево отрицательным отступом, равным 100% ширины
+  ** благодаря этому линия встает слева от текста
+  */
+  margin-left: -100%;
+}
+
+h2.line2:after {
+  /* смещаем правую линию вправо отрицательным отступом, равным 100% ширины
+  ** благодаря этому линия встает справа от текста
+  */
+  margin-right: -100%;
+}
+
+
+p.text2 {
+	font-family: "MyriadProRegular";
+	font-size: 3em;
+	color: #7c7c7c;
+	margin-top: 5px;
+	margin-bottom: 25px;
+}
+
+p.text3 {
+	display: inline-block;
+	font-family: "ArialRegular";
+	font-size: 1.1667em;
+	color: #4e4e4e;
+	margin-bottom: 38px;
+	text-align: justify;
+}
+
+p.text4 {
+	display: inline-block;
+	font-family: "OpenSansRegular";
+	font-size: 2em;
+	color: #3674ba;
+	margin-bottom: 17px;
+	text-transform: uppercase;
+}
+
+/*Индикаторы выполнения*/
+
+.progress {
+	height: 30px;
+	border-radius: 0;
+	background-color: #828181;
+	margin-bottom: 10px;
+}
+
+.progress-bar {
+	font-family: "OpenSansRegular";
+	font-size: 1.1667em;
+	color: #ffffff;
+	text-transform: uppercase;
+	background-color: #3674ba;
+	text-align: left;
+	margin-bottom: 0;
+	padding-left: 9px;
+	padding-top: 5px;
+}
+
+.padding1 {
+	padding-right: 10px;
+	padding-bottom: 60px;
+}
+
+.padding2 {
+	padding-left: 10px;
+}
+
+/*Карта*/
+
+#map {
+  width: 100%;
+  height: 156px;
+}
+
+.map-responsive{
+  overflow:hidden;
+  /*padding-bottom: 36.683%;*/
+  padding-bottom: 169px;
+  position:relative;
+  height:0;
+}
+
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:156px;
+  width:100%;
+  position:absolute;
+}
+
+/*Метка*/
+
+.fa {
+  display: inline-block;
+  width: 55px;
+  font-size: 46px;
+  color: #0d82dd;
+  text-shadow: #fff 2px 2px 0, #fff -2px -2px 0, #fff -2px 2px 0, #fff 2px -2px 0;
+
+  -webkit-mask-image: -webkit-linear-gradient(top, rgba(0,0,0,.1), rgba(0,0,0,.5) 25%, rgba(0,0,0,1));
+  -webkit-mask-image: linear-gradient(top, rgba(0,0,0,.1), rgba(0,0,0,.5) 25%, rgba(0,0,0,1)); 
+
+  position: absolute;
+  top: 33px;
+  left: 227px;
+
+}
+
+
+/*Форма ввода*/
+
+.form-group {
+	margin-bottom: 9px;
+}
+
+.form-control {
+	border-radius: 0;
+	background: #f1f1f1;
+}
+
+input {
+	text-transform: uppercase;
+	font-family: "OpenSansRegular";
+}
+
+textarea {
+	font-family: "OpenSansRegular";
+}
+
+button.btn.btn-default {
+	border-radius: 0;
+	width: 90px;
+	height: 30px;
+	background: #3674ba;
+	font-family: "OpenSansRegular";
+	font-size: 1.1667em;
+	color: #ffffff;
+  padding-top: 4px;
+
+	display: inline-block;
+	position: absolute;
+	bottom: 10px;
+	right: 0%;
+}
+
+
+/*Футер*/
+
+.wrapfuter {
+	padding-top: 43px;
+}
+
+footer {
+	border: 0px solid #828181;
+	font-family: "MyriadProRegular";
+	font-size: 1em;
+	color: #6f6f6f;
+
+-webkit-box-shadow: inset 0px -1px 14px 1px rgba(111, 111, 111, 0.75);
+-moz-box-shadow:    inset 0px -1px 14px 1px rgba(111, 111, 111, 0.75);
+box-shadow:         inset 0px -1px 14px 1px rgba(111, 111, 111, 0.75);
+}

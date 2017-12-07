@@ -1,0 +1,426 @@
+@media (min-width: 1011px) and (max-width: 1100px) {
+
+.abouttext1 {
+    margin-top: 70px;
+}
+
+.about {
+    background: url('../image/monitor2.png') no-repeat 0 75%;
+    background-size: contain;
+    margin-left: 7px;
+}
+
+.slider1 {
+    max-width: 85%;
+}
+
+.work {
+    min-height: 1255px;
+}
+
+.forlupa {
+    height: 237px;
+}
+
+}
+
+
+@media (min-width: 992px) and (max-width: 1010px) {
+
+.abouttext1 {
+    margin-top: 70px;
+}
+
+.about {
+    background: url('../image/monitor2.png') no-repeat 0 75%;
+    background-size: contain;
+    margin-left: 7px;
+}
+
+.slider1 {
+    max-width: 55%;
+}
+
+.worktext3 a:hover {
+    height: 200px;
+}
+
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+.col-md-offset-6 {
+    padding-left: 15px;
+}
+
+.col-sm-offset-6, .col-xs-offset-6 {
+    padding-left: 40px;
+}
+
+.abouttext1, .abouttext2 {
+    text-align: center;
+}
+
+.line {
+    margin: 7px auto 0;
+}
+
+.abouttext1, .abouttext3 {
+    margin-top: 70px;
+}
+
+.about {
+    background: url('../image/monitor2.png') no-repeat 0 80%;
+    background-size: contain;
+    margin-left: 7px;
+}
+
+.slider1 {
+    max-width: 55%;
+}
+
+.servistext3 {
+    margin-top: 50px;
+}
+
+.servistext5 {
+    margin: 0 15% 55px;
+}
+
+
+}
+
+
+@media (max-width: 767px) {
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-top: #ffffff solid 3px;
+    border-bottom: #ffffff solid 3px;
+    padding: 0;
+}
+
+.wrapmenu > .navbar-header > .navbar-brand {
+    padding-top: 10px;
+}
+
+h1 {
+    padding-top: 0;
+}
+
+.navbar-collapse > .navbar-nav > li > a {
+    padding: 5px 0;
+    text-align: center;
+}
+
+.activ,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus
+{
+    background: url(../image/shape.png) no-repeat 47.5% 100%;
+    background-size: cover;
+}
+
+.col-md-offset-6 {
+    padding-left: 15px;
+}
+
+.col-sm-offset-6 {
+    padding-left: 0;
+}
+
+.col-xs-offset-6 {
+    padding-left: 5%;
+}
+
+.abouttext1, .abouttext2, .abouttext3 {
+    text-align: center;
+}
+
+.line {
+    margin: 7px auto 0;
+}
+
+.abouttext1 {
+    margin-top: 50px;
+}
+
+.abouttext3 {
+    margin-bottom: 30px;
+}
+
+.abouttext4 {
+    margin-left: 17%;
+}
+
+.abouttext5 {
+    margin-top: 155px;
+    margin-bottom: 125px;
+    margin-left: 0;
+    text-align: center;
+}
+
+.about {
+    background: url('../image/monitor2.png') no-repeat 0 100%;
+    background-size: contain;
+    margin-left: 7px;
+}
+
+.slider1 {
+    max-width: 75%;
+}
+
+.servistext3 {
+    margin-top: 50px;
+}
+
+.servistext5 {
+    margin: 0 15% 55px;
+}
+
+.slider2 {
+    max-width: 82.5%;
+}
+
+.clienttext2 {
+    padding-left: 23px;
+}
+
+.wrapmenu2 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.wrapmenu2 > .navbar-header {
+    height: 40px;
+}
+
+.wrapmenu2 > .navbar-header > span.navbar-brand {
+    display: inline-block;
+    margin: 0 auto;
+    float: none;
+    padding-top: 10px;
+}
+
+.footertext1, .footertext2 {
+    padding-top: 19px;
+    text-align: center;
+}
+
+
+}
+
+
+@media (min-width: 501px) and (max-width: 655px) {
+
+.about {
+    background: url('../image/monitor2.png') no-repeat 0 95%;
+    background-size: contain;
+}
+
+.abouttext5 {
+    margin-top: 120px;
+    margin-bottom: 125px;
+}
+
+.slider2 {
+    max-width: 60%;
+}
+
+.clienttext2 {
+    padding-left: 10px;
+}
+
+
+}
+
+
+@media (max-width: 500px) {
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-top: #ffffff solid 3px;
+    border-bottom: #ffffff solid 3px;
+    padding: 0;
+}
+
+.wrapmenu > .navbar-header > .navbar-brand {
+    padding-top: 10px;
+}
+
+h1 {
+    padding-top: 0;
+}
+
+.navbar-collapse > .navbar-nav > li > a {
+    padding: 5px 0;
+    text-align: center;
+}
+
+header {
+    min-height: 725px;
+}
+
+h2.font {
+    padding-top: 110px;
+}
+
+.font1 {
+    padding-bottom: 190px;
+}
+
+.col-md-offset-6, .col-xs-offset-6 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.col-sm-offset-6 {
+    padding-left: 0;
+}
+
+.abouttext1, .abouttext2, .abouttext3 {
+    text-align: center;
+}
+
+.line {
+    margin: 7px auto 0;
+}
+
+.abouttext1 {
+    margin-top: 50px;
+}
+
+.abouttext3 {
+    margin-bottom: 30px;
+}
+
+.abouttext4 {
+    margin-left: 15%;
+}
+
+.abouttext5 {
+    width: 155px;
+    padding-right: 1px;
+    padding-left: 1px;
+    margin-top: 65px;
+    margin-bottom: 85px;
+}
+
+.about {
+    background: url('../image/monitor2.png') no-repeat 0 100%;
+    background-size: contain;
+    margin-left: 7px;
+}
+
+.teamtext3 {
+    min-height: 49px;
+}
+
+.teamtext4 {
+    min-height: 38px;
+    margin-bottom: 15px;
+}
+
+.teamtext1, .teamtext2 {
+    margin-top: 50px;
+}
+
+.slider1 {
+    max-width: 100%;
+}
+
+.servistext1, .clienttext1, .clienttext1, .worktext1, .testimonialtext1, .contacttext1 {
+    margin-top: 50px;
+}
+
+.servistext3, .testimonialtext2 {
+    margin-top: 30px;
+}
+
+.servistext5 {
+    margin: 0 5px 45px;
+}
+
+.slider2 {
+    max-width: 90%;
+}
+
+.servistext2, .worktext2 {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.forlupa {
+    height: 205px;
+}
+
+.wrapmenu2 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.wrapmenu2 > .navbar-header > span.navbar-brand {
+    display: inline-block;
+    margin: 0 auto;
+    float: none;
+    padding-top: 10px;
+}
+
+.testimonialtext2 {
+    margin-top: 40px;
+}
+
+.contact {
+    min-height: 770px;
+    padding-bottom: 40px;
+}
+
+.contacttext2 {
+    margin-bottom: 40px;
+}
+
+
+}
+
+
+@media (max-width: 375px) {
+
+header {
+    min-height: 655px;
+}
+
+h2.font {
+    padding-top: 75px;
+}
+
+.font1 {
+    padding-bottom: 150px;
+}
+
+.col-xs-offset-6 {
+    padding-left: 10px;
+}
+
+.abouttext5 {
+    width: 135px;
+    margin-top: 50px;
+    margin-bottom: 65px;
+}
+
+.servistext4 {
+    font-size: 1.6em;
+}
+
+.slider2 {
+    max-width: 100%;
+}
+
+.forlupa {
+    height: 145px;
+}
+
+
+}
+
